@@ -4,8 +4,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map {|element| element.capitalize.split}
-
+  planeteer_calls.map {|element| element.capitalize + "!"}
 end
   binding.pry
   
