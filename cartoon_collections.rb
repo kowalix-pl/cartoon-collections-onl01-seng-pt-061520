@@ -5,8 +5,9 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|element| element.capitalize + "!"}
-end
   binding.pry
+end
+
   
 def long_planeteer_calls(words)
    if words.find{|word| word.length > 4}
