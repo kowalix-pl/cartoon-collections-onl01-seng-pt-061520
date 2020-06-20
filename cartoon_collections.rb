@@ -3,11 +3,11 @@ def roll_call_dwarves(array)
   array.each_with_index {|name,index| puts "#{index + 1} #{name}"}
 end
 
-# def summon_captain_planet(planeteer_calls)
-#   planeteer_calls.map {|element| element.capitalize.split}
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map {|element| element.capitalize.split}
 
-# end
-  # binding.pry
+end
+  binding.pry
   
 def long_planeteer_calls(words)
    if words.find{|word| word.length > 4}
